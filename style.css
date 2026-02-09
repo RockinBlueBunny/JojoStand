@@ -1,7 +1,7 @@
 /* style.css */
 body {
   font-family: Arial, sans-serif;
-  background-color: #f4f4f4;
+  background-color: #ff7e7e;
   margin: 0;
   padding: 0;
 } 
@@ -20,7 +20,7 @@ ul {
 
 ul li a {
   display: block;
-  color: white;
+  color: rgb(255, 255, 255);
   padding: 14px 16px;
   text-decoration: none;
 }
