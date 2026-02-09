@@ -1,50 +1,36 @@
-
+/* style.css */
 body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
   margin: 0;
   padding: 0;
-
+} 
 
 h2, p {
-  margin: 10px;
+  margin: 20px;
 }
 
 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  overflow: hidden;
-  background-color: #333333;
-}
-
-ul li {
-  float: left;
+  background-color: #000000;
+  display: flex;
 }
 
 ul li a {
   display: block;
   color: white;
-  text-align: center;
   padding: 14px 16px;
   text-decoration: none;
 }
 
 ul li a:hover {
-  background-color: #111111;
+  background-color: #ff0000;
 }
 
-<ul>
-  <li><a href="index.html">Home</a></li>
-  <li><a href="Star Platinum.html">Star Platinum</a></li>
-  <li><a href="Crazy Diamond.html">Crazy Diamond</a></li>
-  <li><a href="Killer Queen.html">Killer Queen</a></li>
-  <li><a href="Gold Experience.html">Gold Experience</a></li>
-  <li><a href="King Crimson.html">King Crimson</a></li>
-</ul>
-
-
-
-
-
-
+ul li a.active {
+  background-color: #4CAF50;
 }
 
+/* End of style.css */
