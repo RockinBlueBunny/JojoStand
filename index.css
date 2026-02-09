@@ -1,23 +1,18 @@
 /* style.css */
 body {
   font-family: Arial, sans-serif;
-  background-color: #d270ff;
+  background-color: #ffffff;
   margin: 0;
   padding: 0;
 
 
 
-  background-image: url("454px-Star_Platinum_Headshots.png"); /* Replace with your image path */
+  background-image: url("JoJoOraDora.png"); /* Replace with your image path */
   background-repeat: no-repeat; /* Prevents the image from tiling */
   background-size: cover;      /* Scales the image to cover the entire element */
   background-position: center; /* Centers the image */
   background-attachment: fixed; /* Keeps the image fixed during scrolling (optional parallax effect) */
 }
-
-
-
-
-
 
 
 h2, p {
