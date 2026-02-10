@@ -12,6 +12,15 @@ body {
   background-size: cover;      /* Scales the image to cover the entire element */
   background-position: center; /* Centers the image */
   background-attachment: fixed; /* Keeps the image fixed during scrolling (optional parallax effect) */
+
+  .text-block {
+    background-color: rgb(191, 255, 191); /* Covers full block width */
+    color: rgb(0, 114, 25);
+    padding: 10px;               /* Adds space around text */ }
+
+
+
+
 }
 
 
