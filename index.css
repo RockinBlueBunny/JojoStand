@@ -51,5 +51,16 @@ ul li a.active {
   background-color: #4CAF50;
 }
 
+
+li::marker {
+  color: white;
+  background: red; /* Works in some browsers */
+}
+
+
+
+
+
+
 /* End of style.css */
 
